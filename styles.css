@@ -5,14 +5,16 @@ img.profile {
     margin-left: 80px;
 }
 
-img.notepad {
-    width: 20%;
-    height: 30%;
-}
-
 img.java-js {
     width: 15%;
     height: 100%;
+    float: left;
+    padding-right: 20px;
+}
+
+img.notepad {
+    width: 20%;
+    height: 30%;
 }
 
 p {
@@ -31,16 +33,24 @@ h2 {
     color: #48BB78;
 }
 
-h3 {
+h3.about {
     color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h4 {
+.byline {
     color: #718096;
+}
+
+.somed {
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-bottom: 1%;
 }
 
 .somed-archives {
     color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header {
